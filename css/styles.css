@@ -1,0 +1,79 @@
+body {
+    background-color: #f3f5f1;
+    /*наследуемые стили лучше пихать в максимально сверху, чтоб не писать по 10 раз*/
+    font: 14px Arial, sans-serif;
+    margin: 0;
+}
+
+/*центрует контент и дает определенную ширину*/
+.l-container{
+    width: 960px;
+    margin: auto;
+}
+/*
+position: absolute в основных блоках говорит о том, что поток ты пока еще не понял.
+Сейчас я напишу как правильно, а ты постарайся понять
+*/
+
+.l-header{
+    background-color: #2b2b2c;
+}
+.l-header__bottom{
+    background-color: #8abe10;
+    font-size: 12px;
+    color: #e4f3c2;
+}
+.l-main {
+    background-color: #f3f5f1;
+    position: absolute;
+    top: 145px;
+    left: 0px;
+    width: 100%;
+    height: 970px;
+}
+.l-footer {
+    background-color: #2b2b2c;
+}
+
+.nav{
+    font-size: 15px;
+}
+.nav li{
+    display: inline-block; /*заставлем в одну строку идти*/
+    margin-left: 10px;
+}
+.nav li a{
+    color: #ececec;
+}
+.nav li a:hover{
+    color: #a2d42e;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.search {
+    background-color: #83b40f;
+    border: none;
+    color: #e4f3c2;
+}
+
+
+
+
+.material {
+    position: relative;
+    top: 15px;
+    margin: auto;
+    height: 825px;
+    background-color: #ffffff;
+    width: 78%;
+}
+::-webkit-input-placeholder {
+    color: #e4f3c2;
+}
+
+
+

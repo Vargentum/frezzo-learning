@@ -1,37 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>FREZZO</title>
-    <link type="text/css" rel="stylesheet" href="styles.css"/>
+  <title>FREZZO</title>
+  <!--Стили правильнее хранить в отдельной папке-->
+  <link type="text/css" rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
+<!--Здесь лучше использовать семантический класс Html5-->
+<!--Трюк: основные элементы раскладки страницы круто именовать с префиксом l- (layout)
+l-header, l-main, l-footer, l-main__columnLeft, l-main__columnCenter
+-->
+<header class="l-header">
+  <div class="l-container">
+    <!--Обычно логотип является ссылкой на главную-->
+    <a class="logo" href="/">
+      <!--Для графики тоже имеет смысл завести отдельную папку-->
+      <img src="img/logo.png">
+    </a>
+  </div>
 
-       <div class="head">
-           <img src="logo.png" class="img_logo">
-           <ul class="hr">
-               <a href="#"><li>HOME</li></a>
-               <a href="#"><li>FEATURES</li></a>
-               <a href="#"><li>PAGES</li></a>
-               <a href="#"><li>BLOG</li></a>
-               <a href="#"><li>PORTFOLIO</li></a>
-               <a href="#"><li>CONTACT</li></a>
-           </ul>
-       </div>
+  <!--
+  1. Блоки лучше всего называть соответственно роли, которую они играют на странице:
+  например у этого блока есть явная роль - это навигация. Так и называем.
+  2. Ссылка должна находится внутри элемента списка. У тебя почему-то наоборот.
+  Обращай внимание - вебшторм подсвечивает подобные ошибки: если теги горят желтым или красным,
+  значит где-то проблема.
+  3. Свойство css text-transform:uppercase; превращает все буквы в заглавные.
+  В html только структура. Весь внешний вид исключительно в css.
+  -->
+  <nav class="nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Pages</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
 
-       <div class="green">
-           <div class="div_green"> Home <span style="color: #608509; font-family: bold"> > </span>  Portfolio <span style="color: #608509; font-family: bold"> > </span> Detail Works
-           </div>
-           <div class="div_search"><input type="search" placeholder="type your search" class="search">
-           </div>
-       </div>
+  <!--Green плохо, вдруг завтра блок станет красным. Я бы назвал его l-header__bottom и вложил в l-header-->
+  <div class="l-header__bottom l-container">
+    <!--
+    1. Этот блок называется "хлебные крошки"(breadcrumbs). Он обеспечивает навигацию в иерархии страниц.
+    Аналогичен путям в проводнике Windows
+    2. Стили в тегах это очень плохо. Старайся чтоб все стили были в css файле.
+    3. Галочку после каждого пункта можно реализовать с помощью псевдоэлементов before или after: http://habrahabr.ru/post/154319/
+    -->
+    <nav class="crumbs">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Detail Works</a></li>
+      </ul>
+    </nav>
 
-       <div class="body">
-         <div class="material">
+    <!--
+    Правильнее будет использовать form, т.к. планируется отправка данных на сервер
+    Можно упростить класс до search
+    -->
+    <form class="search">
+      <input type="search" placeholder="type your search" class="search__field">
+      <!--В поисковых формах всегда должна быть кнопка отправки данных на сервер:
+      реализуется она так:-->
+      <button type="submit" class="search__submit">Отправить на сервер</button>
+      <!--или так (но мне больше нравится верхний вариант)-->
+      <input type="submit" class="search__submit" value="Отправить на сервер">
+      <!--твоей задачей будет застилизовать кнопку под иконку как в макете. используй background-->
+    </form>
+  </div>
+</header>
 
-         </div>
-       </div>
 
-       <div class="foot"
+<!--Здесь лучше использовать семантический класс Html5-->
+<main>
+  <!--Это страница блога: пиши разметку ниже с учетом этих данных-->
 
+</main>
+
+<!--Здесь лучше использовать семантический класс Html5-->
+<footer class="foot"></footer>
 </body>
 </html>

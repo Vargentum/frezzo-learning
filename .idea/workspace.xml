@@ -23,25 +23,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="14" selection-start="973" selection-end="973" vertical-scroll-proportion="0.5097143" vertical-offset="16" max-vertical-offset="891">
-              <folding>
-                <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="42" column="30" selection-start="1578" selection-end="1592" vertical-scroll-proportion="-0.78571427" vertical-offset="1353" max-vertical-offset="2937">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles.css">
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="13" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0" vertical-offset="2937" max-vertical-offset="3564">
-              <folding />
+            <state line="51" column="2" selection-start="936" selection-end="936" vertical-scroll-proportion="0.5321701" vertical-offset="139" max-vertical-offset="1386">
+              <folding>
+                <element signature="e#5#174#0" expanded="false" />
+                <element signature="e#236#275#0" expanded="false" />
+                <element signature="e#430#464#0" expanded="false" />
+                <element signature="e#482#557#0" expanded="false" />
+                <element signature="e#566#691#0" expanded="false" />
+                <element signature="e#702#736#0" expanded="false" />
+                <element signature="e#742#766#0" expanded="false" />
+                <element signature="e#774#860#0" expanded="false" />
+                <element signature="e#870#893#0" expanded="false" />
+                <element signature="e#909#932#0" expanded="false" />
+                <element signature="e#936#966#0" expanded="false" />
+                <element signature="e#1064#1190#0" expanded="false" />
+                <element signature="e#1219#1242#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,8 +65,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
   </component>
@@ -111,6 +121,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FREZZO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frezzo-learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -142,7 +166,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1864" height="1092" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -178,37 +202,34 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="14" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0" vertical-offset="891" max-vertical-offset="891">
-          <folding>
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="13" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0" vertical-offset="2937" max-vertical-offset="3564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="13" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="14" selection-start="973" selection-end="973" vertical-scroll-proportion="0.5097143" vertical-offset="16" max-vertical-offset="891">
+        <state line="42" column="30" selection-start="1578" selection-end="1592" vertical-scroll-proportion="-0.78571427" vertical-offset="1353" max-vertical-offset="2937">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="2" selection-start="936" selection-end="936" vertical-scroll-proportion="0.5321701" vertical-offset="139" max-vertical-offset="1386">
           <folding>
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5#174#0" expanded="false" />
+            <element signature="e#236#275#0" expanded="false" />
+            <element signature="e#430#464#0" expanded="false" />
+            <element signature="e#482#557#0" expanded="false" />
+            <element signature="e#566#691#0" expanded="false" />
+            <element signature="e#702#736#0" expanded="false" />
+            <element signature="e#742#766#0" expanded="false" />
+            <element signature="e#774#860#0" expanded="false" />
+            <element signature="e#870#893#0" expanded="false" />
+            <element signature="e#909#932#0" expanded="false" />
+            <element signature="e#936#966#0" expanded="false" />
+            <element signature="e#1064#1190#0" expanded="false" />
+            <element signature="e#1219#1242#0" expanded="false" />
           </folding>
         </state>
       </provider>
